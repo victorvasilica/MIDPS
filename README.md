@@ -1,4 +1,4 @@
-The host operating system info: Ubuntu-Desktop x64
+The host operating system info: Ubuntu-Desktop x64 <br />
 The remote operating system info: Ubuntu-Server x64
 
 Connection is established via ssh using "OpenSSH" connectivity tool.
