@@ -4,7 +4,7 @@ The remote operating system info: Ubuntu-Server x64
 #####Connection is established via ssh using "OpenSSH" connectivity tool.
 
 The connection can be established using the command:
-* `ssh username@hostname\.domain\.ext`
+* `ssh username@hostname.domain.ext`
 * `ssh username@IPaddress`
 
 The **username**, **hostname** and **IPaddress** are of the remote server.<br />
