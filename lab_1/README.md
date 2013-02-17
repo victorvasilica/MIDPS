@@ -21,9 +21,11 @@ The above lines will invoke the GNU `C/C++` compiler to compile the file `hello.
 The options `-Wall` `-W` and `-Werror` instruct the compiler to check for warnings.
 
 ####Java 
-To compile:
 * `javac name.java'
-To run:
-* `java name`
 
+####Python 
+* `python name.py'
+
+####Ruby 
+* `ruby name.rb'
 
