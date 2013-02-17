@@ -4,8 +4,8 @@ The remote operating system info: Ubuntu-Server x64
 #####Connection is established via ssh using "OpenSSH" connectivity tool.
 
 The connection can be established using the command:
-* ssh username@hostname\.domain\.ext
-* ssh username@IPaddress
+* `ssh username@hostname\.domain\.ext`
+* `ssh username@IPaddress`
 
 The **username**, **hostname** and **IPaddress** are of the remote server.<br />
 
@@ -21,11 +21,11 @@ The above lines will invoke the GNU `C/C++` compiler to compile the file `hello.
 The options `-Wall` `-W` and `-Werror` instruct the compiler to check for warnings.
 
 ####Java 
-* `javac name.java'
+* `javac name.java`
 
 ####Python 
-* `python name.py'
+* `python name.py`
 
 ####Ruby 
-* `ruby name.rb'
+* `ruby name.rb`
 
