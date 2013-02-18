@@ -29,3 +29,20 @@ The options `-Wall` `-W` and `-Werror` instruct the compiler to check for warnin
 ####Ruby 
 * `ruby name.rb`
 
+###Git commands used
+
+* `git config --global user.name "Your Name Here"` -- configure the user name
+* `git config --global user.email "your_email@youremail.com"` -- configure the user email
+* `git remote add name url` -- links the url with name "name" to current git repo
+* `git branch branch_name ` -- creates a branch with name "branch\_name"
+* `git branch -d branch_name` -- deletes the branch with name "branch\_name"
+* `git checkout name` -- switches to branch "name"
+* `git merge name` -- merges the current branch with branch "name"
+* `git pull` -- updates all data from the remote repository
+* `git push` -- sends the changes done on local machine to the remote repository
+* `git commit --amend -m "New commit message"` -- corrects the last commit message 
+* `git reset --hard origin/master` -- resets the last commited state
+* `git reset --hard origin/HEAD` -- resets the head of origin
+* `and other` 
+
+
