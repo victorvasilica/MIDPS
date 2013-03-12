@@ -11,10 +11,10 @@ require 'mail'
 #begginig message
 system 'echo "Starting"'
 
-
+'echo "hello"'
 ##compiling the .cpp file
 print "Compiling the .cpp file . . ." 
-if  system 'echo "$(g++ -Wall -W -Werror hello.cpp -o helloCPP)"'
+if  (system 'echo "$(g++ -Wall -W -Werror hello.cpp -o helloCPP)"')
         system 'echo "$(git add .)"'
         system 'echo "$(git commit -m "success message")"'
         puts "[done]"
