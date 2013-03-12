@@ -63,19 +63,17 @@ puts "Running the .py executable"
 system 'echo "$(python hello.py)"'
 
 
-
-
-
-
-mail = Mail.new do
-  from     'me@gmail.com'
-  to       'vasilica.victor@gmail.com'
-  subject  'Here is the image you wanted'
-  body     File.read('body.txt')
-end
-
-mail.delivery_method :sendmail
-
-mail.deliver
-
-puts "Script [complete]"
+#Send email
+#Unfinished work
+#mail = Mail.new do
+#  from     'me@gmail.com'
+#  to       'vasilica.victor@gmail.com'
+#  subject  'Here is the image you wanted'
+#  body     File.read('body.txt')
+#end
+#
+#mail.delivery_method :sendmail
+#
+#mail.deliver
+#
+#puts "Script [complete]"
