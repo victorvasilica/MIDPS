@@ -14,11 +14,11 @@ system 'echo "Starting"'
 
 ##compiling the .cpp file
 print "Compiling the .cpp file . . ." 
-if  (system 'echo "$(g++ -Wall -W -Werror hello.cpp -o helloCPP)"')
+if  system 'echo "$(g++ -Wall -W -Werror hello.cpp -o helloCPP)"'
         system 'echo "$(git add .)"'
         system 'echo "$(git commit -m "success message")"'
         puts "[done]"
-end     	
+end   	
 
 ##compiling the .c fil
 print "Compiling the .c file . . ." 
