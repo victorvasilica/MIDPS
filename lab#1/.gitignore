@@ -36,3 +36,8 @@ compiled source #
 Icon?
 ehthumbs.db
 Thumbs.db
+
+# executables #
+#####################
+/helloC
+/helloCPP
