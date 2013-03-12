@@ -11,7 +11,7 @@ require 'mail'
 #begginig message
 system 'echo "Starting"'
 
-message = "success message"
+
 ##compiling the .cpp file
 print "Compiling the .cpp file . . ." 
 if  system 'echo "$(g++ -Wall -W -Werror hello.cpp -o helloCPP)"'
