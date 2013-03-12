@@ -41,3 +41,7 @@ Thumbs.db
 #####################
 /helloC
 /helloCPP
+
+# other uneeded file extensions #
+#####################
+*.txt

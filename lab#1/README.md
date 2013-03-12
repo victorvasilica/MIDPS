@@ -11,7 +11,7 @@ The **username**, **hostname** and **IPaddress** are of the remote server.<br />
 
 
 ###Commands used to compile the "Hello World" programs via terminal
- 
+------ 
 ####C/C++
 * `gcc -Wall -W -Werror hello.c -o helloC` ---for C programs
 * `g++ -Wall -W -Werror hello.cpp -o helloCPP` ---for C++ programs
@@ -30,7 +30,7 @@ The options `-Wall` `-W` and `-Werror` instruct the compiler to check for warnin
 * `ruby name.rb`
 
 ###Git commands used
-
+-----
 * `git config --global user.name "Your Name Here"` -- configure the user name
 * `git config --global user.email "your_email@youremail.com"` -- configure the user email
 * `git remote add name url` -- links the url with name "name" to current git repo
