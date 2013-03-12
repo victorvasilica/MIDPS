@@ -13,23 +13,37 @@ system 'echo "Starting"'
 
 
 ##compiling the .cpp file
-print "Compiling the .cpp file . . ." 
-if  system 'echo "$(g++ -Wall -W -Werror hello.cpp -o helloCPP)"'
+puts "Compiling the .cpp file . . ." 
+ if  system ('g++ -Wall -W -Werror hello.cpp -o helloCPP')
         system 'echo "$(git add .)"'
         system 'echo "$(git commit -m "success message")"'
         puts "[done]"
+ else
+    puts "[error]"
+
 end   	
 
 ##compiling the .c fil
-print "Compiling the .c file . . ." 
-system 'echo "$(gcc -Wall -W -Werror hello.c -o helloC)"'
-puts "[done]"
+puts "Compiling the .c file . . ." 
+ if  system ('gcc -Wall -W -Werror hello.c -o helloC')
+        system 'echo "$(git add .)"'
+        system 'echo "$(git commit -m "success message")"'
+        puts "[done]"
+ else
+    puts "[error]"
+      
+end
 
 ##compiling the .java fil
-print "Compiling the .java file . . ." 
-system 'echo "$(javac hello.java)"'
-puts "[done]"
-
+puts "Compiling the .java file . . ." 
+ if  system ('javac hello.java')
+        system 'echo "$(git add .)"'
+        system 'echo "$(git commit -m "success message")"'
+        puts "[done]"
+ else
+    puts "[error]"
+ 
+end
 
 #run the executables from compilation
 
